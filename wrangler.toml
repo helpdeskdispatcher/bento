@@ -5,7 +5,7 @@ workers_dev = true
 [vars]
 BASE_URL = "http://127.0.0.1:8787"
 
-# Override values for `--env production` usage
+# Override values for `--env production` usages
 [env.production]
 routes = [
 	{ pattern = "bento.dispatcherpersada.workers.dev", custom_domain = true }
